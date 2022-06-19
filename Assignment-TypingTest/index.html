@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="hrbar"></div>
+        <h2>Test Your Typing Speed</h2>
+        <div class="status" id="status">
+            <div class="status-block">
+                <span class="status-label" id="error-label">Errors</span>
+                <div class="status-content" id="status-block-error">0</div>
+            </div>
+            <div class="status-block">
+                <span class="status-label"  id="time-label">Time</span>
+                <div class="status-content" id="status-block-time">60s</div>
+            </div>
+            <div class="status-block">
+                <span class="status-label" id="accuracy-label">%Accuracy</span>
+                <div class="status-content" id="status-block-accuracy">100</div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="content-space">
+            </div>
+        </div>
+        <br>
+        <div id="typing">
+            <textarea onselectstart="return false" onpaste="return false;" onCopy="return false" id="typing-space" value="def" rows=2 cols=54></textarea>
+        </div>
+        <div id="restart-div"></div>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>

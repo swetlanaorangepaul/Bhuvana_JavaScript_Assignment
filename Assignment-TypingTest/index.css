@@ -1,0 +1,143 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.hrbar {
+    width: 100%;
+    height: 8px;
+    background-color: darkgray;
+}
+
+h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+.status-label {
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.status-content {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding-right: 5%;
+}
+
+.status {
+    width: 43%;
+    margin: auto;
+    text-align: center;
+}
+
+.status-block {
+    display: inline-block;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    width: 60px;
+    line-height: 40px;
+    border-radius: 15%;
+    background-color: rgb(185, 194, 18);
+    box-shadow: 5px 4px 5px 5px #151515;
+    margin-top: 2%;
+}
+
+#content,
+#typing {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#content-space,
+#typing-space {
+    margin: auto;
+    position: relative;
+    align-items: center;
+    line-height: 50px;
+    resize: none;
+    Overflow: auto;
+    width: 100%;
+    overflow-wrap: break-word;
+    background-color: rgb(185, 194, 18);
+    box-shadow: 5px 4px 5px 5px #151515;
+
+    color: #151515;
+    font-size: x-large;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#content-space::placeholder,
+#typing-space::placeholder {
+    color: #151515;
+    font-size: x-large;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#typing-space {
+    background-color: rgb(247, 238, 204);
+}
+
+#typing-space::placeholder {
+    background-color: rgb(247, 238, 204);
+}
+
+.err {
+    background-color: red;
+    color: #ff0000;
+}
+
+.correct {
+    color: black;
+}
+
+.wrong {
+    color: red;
+}
+
+.wrongbackground {
+    background-color: orange;
+}
+
+.current {
+    background-color: darkgrey;
+    color: Blue;
+    font-size: larger;
+}
+
+.restart-button {
+    margin: auto;
+    background-color: rgb(185, 194, 18);
+    position: relative;
+    display: inline;
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    left: 46%;
+    z-index: 2;
+    margin-bottom: 0%;
+}
+
+.restart-button:hover {
+    font-size: 22px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    color: blue;
+    border: 2px solid blue;
+}
